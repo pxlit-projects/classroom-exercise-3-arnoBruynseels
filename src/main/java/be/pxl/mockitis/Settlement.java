@@ -14,7 +14,8 @@ public class Settlement {
      * @param raiders
      * @return returns true if defending was successful, false otherwise
      */
-    public boolean defend(Raiders raiders) {
+    public boolean defend(Raiders raiders) 
+    {
         return raiders.getAmountOfRaiders() <= settlers.stream().filter(Settler::isAssignedToDefense).count();
     }
 }

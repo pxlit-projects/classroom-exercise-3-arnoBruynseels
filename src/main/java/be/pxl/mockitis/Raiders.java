@@ -8,7 +8,8 @@ public class Raiders {
     private List<Raider> raiders = new ArrayList<>();
     private boolean hasLegendary;
 
-    public Raiders(boolean hasLegendary) {
+    public Raiders(boolean hasLegendary) 
+    {
         this.hasLegendary = hasLegendary;
     }
 
